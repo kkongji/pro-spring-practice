@@ -1,0 +1,13 @@
+package com.jun.prospring5;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ProSpring5PracticeApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
