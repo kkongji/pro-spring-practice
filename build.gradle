@@ -16,11 +16,16 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-web-services'
-    implementation 'junit:junit:4.13.1'
     implementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation 'javax.inject:javax.inject:1'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'javax.inject:javax.inject:1'
+    implementation 'junit:junit:4.13.1'
     implementation 'net.uberfoo.gradle:gradle-aspectj:2.5'
+    implementation 'mysql:mysql-connector-java'
+    runtimeOnly 'com.h2database:h2'
+    implementation 'commons-dbcp:commons-dbcp:1.4'
 }
 
 
